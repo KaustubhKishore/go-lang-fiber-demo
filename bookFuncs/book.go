@@ -20,14 +20,34 @@ type Book struct {
 var books = []Book{
 	Book{
 		1,
-		"Kaustubh",
-		"Kishore",
+		"K",
+		"K",
 	},
 	Book{
 		2,
-		"Revolta",
+		"R",
 		"Go",
 	},
+	Book{
+		3,
+		"Lorem",
+		"JSP",
+	},
+	Book{
+		4,
+		"Ipsum",
+		"React",
+	},
+	Book{
+		5,
+		"Sit",
+		"JS",
+	},
+	Book{
+		6,
+		"Amet",
+		"Java",
+	}
 }
 
 func GetAllBooks(c *fiber.Ctx) error {
