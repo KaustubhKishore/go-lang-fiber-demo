@@ -5,7 +5,7 @@ A sample API built using Golang Fiber Framework which is then containerised thro
 
 ```bash
 docker build -t golangfiber .
-docker run -d -p3000:3000 golangfiber
+docker run -d -p 3000:3000 golangfiber
 ```
 ##### Get all books
 `GET`
@@ -18,7 +18,7 @@ docker run -d -p3000:3000 golangfiber
 > localhost:3000/api/addonebook
 ```JSON
 {
-    "BookId": 3,
+    "BookId": 36,
     "BookName": "Kaustubh",
     "BookAuthor": "Kishore"
 }
